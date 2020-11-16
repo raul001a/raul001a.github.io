@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Reservia_style.css">
+        <script src="https://kit.fontawesome.com/18b7f90565.js" crossorigin="anonymous"></script>
+        <title>Reservia</title>
+    </head>
+    <body>
+        <div id="bloc_page">
+
+            <header>
+                <div id="bloc_logo"><img id="logo-reservia" src="images/logo_Reservia.svg" alt="logo Reservia" /></div>
+                <nav>
+                    <div class="ancre"> <p><a href="#section1"> Hébergements</a></p></div>
+                    <div class="ancre"> <p><a href="#activites"> Activités</a></p></div>
+                </nav>
+
+                <div id="sinscrire"><a href="https://openclassrooms.com" title="Vous ne le regretterez pas !" target="_blank"> S'inscrire</a></div>
+
+            </header>
+
+
+
+            <div id="bloc_titre">
+                <h1> Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p> En plein centre ville ou en pleine nature</p>
+            </div>
+            <div id="bloc_button">
+
+                <form method="post" action="traitement.php" id="search_button">
+                    <div id="label_2"><i class="fas fa-map-marker-alt"></i></div>
+                    <input type="text" name="where" id="where" placeholder="Marseille, France" />
+
+                    <button type="button" id="button">
+                        <span id="button1">Rechercher</span>
+                        <i class="fas fa-search" id="button2"></i>
+                    </button>
+
+                </form>
+            </div>
+
+            <div id="bloc_filtres">
+                <h2> Filtres</h2>
+                <div id="filtre_bigpart">
+                    <div class="filtres">
+                        <div class="icon"><i class="fas fa-money-bill-wave-alt"></i></div>
+                        <div class="texte_filtre"><div><p> Economique</p></div></div>
+                    </div>
+                    <div class="filtres">
+                        <div class="icon"><i class="fas fa-baby"></i></div>
+                        <div class="texte_filtre"><p> Familial</p></div>
+                    </div>
+                    <div class="filtres">
+                        <div class="icon"><i class="fas fa-heart"></i></div>
+                        <div class="texte_filtre"><p> Romantique</p></div>
+                    </div>
+                    <div class="filtres">
+                        <div class="icon"><i class="fas fa-dog"></i></div>
+                        <div class="texte_filtre"><p> Animaux autorisés</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="attention">
+                <div id="icon_attention"><i class="fas fa-info"></i></div>
+                <div id="texte_attention"><p> Plus de 500 logements sont disponibles dans cette ville</p></div>
+            </div>
+
+
+            <section id="section1">
+                <div id="hebergements">
+                    <div id="titre_hebergements">
+                        <h3> Hébergements à Marseille</h3>
+                    </div>
+                    <div id="bloc_hebergements">
+                        <div id="row_1">
+
+                            <a class="vignette_hebergement" href="https://openclassrooms.com" target="_blank">
+                                <div class="images_hebergements">
+                                    <img src="images/hebergements/auberge_la_cannebiere-small.jpg" alt="photo de l'auberge la cannebière" />
+                                </div>
+                                <div class="description_hebergements">
+                                    <div>
+                                        <p class="nom_hotel"> Auberge la Cannebière</p>
+                                        <p class="nuit"> Nuit à partir de <span class="prix">25€</span> </p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="grey-star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="vignette_hebergement" href="https://openclassrooms.com" target="_blank">
+                                <div class="images_hebergements">
+                                    <img src="images/hebergements/hotel_du_port-small.jpg" alt="photo de l'hôtel du port" />
+                                </div>
+                                <div class="description_hebergements">
+                                    <div>
+                                        <p class="nom_hotel">Hôtel du port</p>
+                                        <p class="nuit"> Nuit à partir de <span class="prix">52€</span> </p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="vignette_hebergement" href="https://openclassrooms.com" target="_blank">
+                                <div class="images_hebergements">
+                                    <img src="images/hebergements/hotel_les_mouettes-small.jpg" alt="photo de l'hôtel les mouettes" />
+                                </div>
+                                <div class="description_hebergements">
+                                    <div>
+                                        <p class="nom_hotel">Hôtel Les mouettes</p>
+                                        <p class="nuit"> Nuit à partir de <span class="prix">76€</span> </p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="grey-star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div id="row_2">
+                            <a class="vignette_hebergement" href="https://openclassrooms.com" target="_blank">
+                                <div class="images_hebergements">
+                                    <img src="images/hebergements/hotel_de_la_mer-small.jpg" alt="photo de l'hôtel de la mer" />
+                                </div>
+                                <div class="description_hebergements">
+                                    <div>
+                                        <p class="nom_hotel">Hôtel de la mer</p>
+                                        <p class="nuit"> Nuit à partir de <span class="prix">46€</span> </p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="grey-star"><i class="fas fa-star"></i></div>
+                                        <div class="grey-star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="vignette_hebergement" href="https://openclassrooms.com" target="_blank">
+                                <div class="images_hebergements">
+                                    <img src="images/hebergements/auberge_le_panier-small.jpg" alt="photo de l'auberge le panier" />
+                                </div>
+                                <div class="description_hebergements">
+                                    <div>
+                                        <p class="nom_hotel">Auberge le Panier</p>
+                                        <p class="nuit"> Nuit à partir de <span class="prix">23€</span> </p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="grey-star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a class="vignette_hebergement" href="https://openclassrooms.com" target="_blank">
+                                <div class="images_hebergements">
+                                    <img src="images/hebergements/hotel_chez_amina-small.jpg" alt="photo de l'hôtel chez Amina" />
+                                </div>
+                                <div class="description_hebergements">
+                                    <div>
+                                        <p class="nom_hotel">Hôtel chez Amina</p>
+                                        <p class="nuit"> Nuit à partir de <span class="prix">96€</span> </p>
+                                    </div>
+                                    <div class="stars">
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                        <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="plus">
+                        <p>Afficher plus</p>
+                    </div>
+                </div>
+
+                <div id="populaires">
+                    <div id="titre_populaire">
+                        <h3> Les plus populaires</h3>
+                        <span><i class="fas fa-chart-line"></i></span>
+                    </div>
+                    <div id="bloc_populaire">
+                        <a class="vignette_populaire" href="https://openclassrooms.com" target="_blank">
+                            <div class="images_populaires">
+                                <img src="images/hebergements/hotel_le_soleil_du_matin-small.jpg" alt="photo de l'hôtel le soleil du matin" />
+                            </div>
+                            <div class="description_populaires">
+                                <div>
+                                    <p class="nom_hotel">Hôtel le soleil du matin</p>
+                                    <p class="nuit"> Nuit à partir de <span class="prix">128€</span> </p>
+                                </div>
+                                <div class="stars">
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="vignette_populaire" href="https://openclassrooms.com" target="_blank">
+                            <div class="images_populaires">
+                                <img src="images/hebergements/au_coeur_de_leau-small.jpg" alt="photo des chambres d'hôtes au coeur de l'eau" />
+                            </div>
+                            <div class="description_populaires">
+                                <div>
+                                    <p class="nom_hotel">Au coeur de l'eau Chambres d'hôtes</p>
+                                    <p class="nuit"> Nuit à partir de <span class="prix">71€</span> </p>
+                                </div>
+                                <div class="stars">
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="grey-star"><i class="fas fa-star"></i></div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="vignette_populaire" href="https://openclassrooms.com" target="_blank">
+                            <div class="images_populaires">
+                                <img src="images/hebergements/hotel_tout_bleu_et_blanc-small.jpg" alt="photo de l'hôtel tout bleu et blanc" />
+                            </div>
+                            <div class="description_populaires">
+                                <div>
+                                    <p class="nom_hotel">Hôtel tout bleu et Blanc</p>
+                                    <p class="nuit"> Nuit à partir de <span class="prix">68€</span> </p>
+                                </div>
+                                <div class="stars">
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="blue-star"><i class="fas fa-star"></i></div>
+                                    <div class="grey-star"><i class="fas fa-star"></i></div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="activites">
+                <div id="titre_activites">
+                    <h3> Activités à Marseille</h3>
+                </div>
+                <div id="bloc_activite">
+                    <div id="column1">
+                        <a id="vignette_activite_1" href="https://openclassrooms.com" target="_blank">
+                            <img class="images_activites" srcset="images/activites/vieux_port-small.jpg 702w, images/activites/vieux_port.jpg 1404w"  
+                            sizes="(max-width:568px) 351px, 1404px" src="images/activites/vieux_port.jpg" alt="photo du vieux port de Marseille" />
+                            <div class="description_activite"><p> Vieux Port</p></div>
+                        </a>
+                    </div>
+                    <div id="column2">
+                        <a id="vignette_activite_2" href="https://openclassrooms.com" target="_blank">
+                            <img class="images_activites" srcset="images/activites/fort_de_pomegues-small.jpg 356w, images/activites/fort_de_pomegues.jpg 711w"  
+                            sizes="(max-width:568px) 178px, 711px" src="images/activites/fort_de_pomegues.jpg" alt="photo du fort de pomègues" />
+                            <div class="description_activite"><p> Fort de Pomègues </p></div>
+                        </a>
+                        <a id="vignette_activite_3" href="https://openclassrooms.com" target="_blank">
+                            <img class="images_activites" srcset="images/activites/iles_du_frioul-small.jpg 648w, images/activites/iles_du_frioul.jpg 1296w"  
+                            sizes="(max-width:568px) 324px, 1296px" src="images/activites/iles_du_frioul.jpg" alt="photo des îles du Frioul" />
+                            <div class="description_activite"><p> Îles du Frioul</p></div>
+                        </a>
+                    </div>
+                    <div id="column3">
+                        <a id="vignette_activite_4" href="https://openclassrooms.com" target="_blank">
+                            <img class="images_activites" srcset="images/activites/parc_national_des_calanques-small.jpg 606w, images/activites/parc_national_des_calanques.jpg 1212w"  
+                            sizes="(max-width:568px) 303px, 1212px" src="images/activites/parc_national_des_calanques.jpg" alt="photo du parc national des Calanques" />
+                            <div class="description_activite"><p> Parc National des Calanques</p></div>
+                        </a>
+                    </div>
+                    <div id="column4">
+                        <a id="vignette_activite_5" href="https://openclassrooms.com" target="_blank">
+                            <img class="images_activites" srcset="images/activites/notre_dame_de_la_garde-small.jpg 589w, images/activites/notre_dame_de_la_garde.jpg 1178w"  
+                            sizes="(max-width:568px) 295px, 1178px" src="images/activites/notre_dame_de_la_garde.jpg" alt="photo de Notre Dame de la Garde à Marseille" />
+                            <div class="description_activite"><p> Notre-Dame-de-la-Garde </p></div>
+                        </a>
+                        <a id="vignette_activite_6" href="https://openclassrooms.com" target="_blank">
+                            <img class="images_activites" srcset="images/activites/parc_longchamp-small.jpg 504w, images/activites/parc_longchamp.jpg 1008w"  
+                            sizes="(max-width:568px) 252px, 1008px" src="images/activites/parc_longchamp.jpg" alt="photo du parc Longchamp à Marseille" />
+                            <div class="description_activite"><p> Parc Longchamp </p></div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <footer>
+            <div id="contenu_footer">
+                <div id="a_propos">
+                    <h2> A propos</h2>
+                    <ul>
+                        <li> Fonctionnement du site </li>
+                        <li> Conditions générales de ventes</li>
+                        <li> Données et confidentialité</li>
+                    </ul>
+                </div>
+                <div id="nos_hebergements">
+                    <h2> Nos hébergements</h2>
+                    <ul>
+                        <li> Charte qualité</li>
+                        <li> Soumettre votre hôtel</li>
+                    </ul>
+                </div>
+                <div id="assistance">
+                    <h2> Assistance</h2>
+                    <ul>
+                        <li> Centre d'aide</li>
+                        <li> Nous contacter</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
