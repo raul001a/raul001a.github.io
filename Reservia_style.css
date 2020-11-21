@@ -127,6 +127,7 @@ header a:hover {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: 1em;  
+    cursor:grab;
 }
  #button2 {
      display:none;
@@ -183,9 +184,10 @@ header a:hover {
     margin-bottom:10px;
 }
 
- .filtres:hover {
+.filtres:hover {
         background-color: #DEEBFF;
-    }
+        cursor: grab;
+}
 
 .texte_filtre {
     padding-left: 10px;
